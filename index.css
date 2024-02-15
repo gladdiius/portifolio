@@ -1,0 +1,94 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Apply styles to the header and navigation */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    float:right;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  /* Style the button */
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 20px;
+  }
+  
+  /* Apply styles to the intro section */
+  #intro {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  #intro h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #intro p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  /* Apply styles to the features section */
+  #features {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .feature {
+    margin-bottom: 40px;
+  }
+  
+  .feature img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .feature h3 {
+    margin-top: 20px;
+    font-size: 24px;
+  }
+  
+  .feature p {
+    font-size: 16px;
+  }
+  
+  /* Apply styles to the about section */
+  #about {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  #about p {
+    margin-bottom: 20px;
+  }
+  
+  #about ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  #about ul li {
+    margin-bottom: 10px;
+  }
