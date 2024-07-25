@@ -1,0 +1,37 @@
+body {
+  background: #081b29;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.projectsTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 5rem;
+}
+
+.projects ul li {
+  list-style: none;
+  font-weight: 500;
+  font-size: 4rem;
+}
+
+.spanDec {
+  display: flex;
+  padding-left: 15px;
+  font-size: 3rem;
+}
+
+.projects ul li a {
+  text-decoration: none;
+  background: #1e4561;
+  color: #081b29;
+  border-radius: 7px;
+  box-shadow: 0 4px 8px #7c5c5c;
+}
+.projects ul li a:hover {
+  border-radius: 20px;
+  box-shadow: 0 0 8px #7c5c5c;
+}
