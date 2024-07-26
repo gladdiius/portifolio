@@ -1,0 +1,24 @@
+body {
+  background-color: #081b29;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  box-sizing: border-box;
+  font-weight: 500;
+  font-size: 2rem;
+}
+p {
+  margin: 0 10px;
+  background: #38434b;
+}
+a {
+  background: rgb(116, 101, 101);
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+  border-radius: 3px;
+  box-shadow: 10px 10px 10px #38434b;
+  backdrop-filter: blur(10px);
+}
