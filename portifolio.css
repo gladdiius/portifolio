@@ -11,6 +11,10 @@ body {
   font-weight: 500;
   font-size: 5rem;
 }
+.projects ul {
+  padding: 4px;
+  background: #38434b;
+}
 
 .projects ul li {
   list-style: none;
