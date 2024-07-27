@@ -1,8 +1,7 @@
 body {
   background-color: #081b29;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: baseline;
   color: white;
   font-family: "Courier New", Courier, monospace;
   box-sizing: border-box;
@@ -14,11 +13,24 @@ p {
   background: #38434b;
 }
 a {
-  background: rgb(116, 101, 101);
+  background: rgb(101, 106, 116);
   text-decoration: none;
-  color: black;
+  color: hsla(0, 6%, 97%, 0.925);
   padding: 5px;
   border-radius: 3px;
-  box-shadow: 10px 10px 10px #38434b;
+  box-shadow: 0 0 10px #5b6266;
   backdrop-filter: blur(10px);
+}
+a:hover {
+  border-radius: 10px;
+  color: white;
+  box-shadow: 0 0 0;
+}
+a:active {
+  border-radius: 10px;
+  color: hsla(0, 6%, 97%, 0.925);
+  background-color: #49545c;
+}
+h1 {
+  color: #727c83;
 }

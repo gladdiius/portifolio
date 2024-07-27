@@ -22,6 +22,8 @@ body {
   justify-content: space-between;
   align-items: center;
   z-index: 100;
+  box-shadow: 0px 0px 10px #40536d;
+  backdrop-filter: blur(100px);
 }
 
 .logo {
@@ -272,11 +274,6 @@ a.active {
   animation: manActiveHover 0.1 forwards;
   animation-delay: 4s;
   pointer-events: none;
-}
-
-.home-imgHover:hover {
-  background: #081b29;
-  opacity: 0.8;
 }
 
 .home-imgHover::after {
